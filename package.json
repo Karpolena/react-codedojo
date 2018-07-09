@@ -1,0 +1,29 @@
+{
+  "name": "react-codedojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts":{
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "build-linux": "node_modules/gulp/bin/gulp.js build",
+    "watch-linux": "node_modules/gulp/bin/gulp.js watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karpolena/react-codedojo.git"
+  },
+  "author": "Karpolena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karpolena/react-codedojo/issues"
+  },
+  "homepage": "https://github.com/Karpolena/react-codedojo#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
